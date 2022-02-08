@@ -1,0 +1,44 @@
+body {
+  background-color: #548cff;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin: 20px;
+  border: 10px solid #000;
+  border-radius: 30px;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.blink_me {
+  animation: blinker 0.1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
